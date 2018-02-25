@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08002BFD20421B40008CEBD1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08002BFC20421B40008CEBD1 /* ProfileViewController.swift */; };
+		08002BFF20421BF6008CEBD1 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08002BFE20421BF6008CEBD1 /* CompassView.swift */; };
+		08002C0120422635008CEBD1 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08002C0020422635008CEBD1 /* LocationController.swift */; };
+		08002C0320423925008CEBD1 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08002C0220423925008CEBD1 /* UserController.swift */; };
+		088F02AD20426C3E003AAA67 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02AC20426C3E003AAA67 /* LoginViewController.swift */; };
+		088F02B220426F8C003AAA67 /* MinimalDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088F02B120426F8C003AAA67 /* MinimalDrop.swift */; };
 		0898271A204210AE00AFEDAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08982719204210AE00AFEDAA /* AppDelegate.swift */; };
-		0898271C204210AE00AFEDAA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898271B204210AE00AFEDAA /* FirstViewController.swift */; };
-		0898271E204210AE00AFEDAA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898271D204210AE00AFEDAA /* SecondViewController.swift */; };
+		0898271C204210AE00AFEDAA /* DropsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898271B204210AE00AFEDAA /* DropsViewController.swift */; };
+		0898271E204210AE00AFEDAA /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898271D204210AE00AFEDAA /* CompassViewController.swift */; };
 		08982721204210AE00AFEDAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0898271F204210AE00AFEDAA /* Main.storyboard */; };
 		08982723204210B000AFEDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08982722204210B000AFEDAA /* Assets.xcassets */; };
 		08982726204210B000AFEDAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08982724204210B000AFEDAA /* LaunchScreen.storyboard */; };
 		08982731204210B000AFEDAA /* TerraDropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08982730204210B000AFEDAA /* TerraDropTests.swift */; };
 		0898273C204210B000AFEDAA /* TerraDropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898273B204210B000AFEDAA /* TerraDropUITests.swift */; };
+		08D23FA82042939900F0DE58 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D23FA72042939900F0DE58 /* Math.swift */; };
+		08D23FAA2042AEBD00F0DE58 /* EditDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D23FA92042AEBD00F0DE58 /* EditDropViewController.swift */; };
+		08D23FAC2042DD4200F0DE58 /* DropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D23FAB2042DD4200F0DE58 /* DropViewController.swift */; };
+		08D23FAE204319B700F0DE58 /* DetailDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D23FAD204319B700F0DE58 /* DetailDrop.swift */; };
+		08D5D42D2042436500F78777 /* ConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D5D42C2042436500F78777 /* ConnectionController.swift */; };
+		08D5D42F2042467A00F78777 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D5D42E2042467A00F78777 /* SplashViewController.swift */; };
+		08D5D4312042589F00F78777 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D5D4302042589F00F78777 /* TabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08002BFC20421B40008CEBD1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		08002BFE20421BF6008CEBD1 /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		08002C0020422635008CEBD1 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		08002C0220423925008CEBD1 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		088F02AC20426C3E003AAA67 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		088F02B120426F8C003AAA67 /* MinimalDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalDrop.swift; sourceTree = "<group>"; };
 		08982716204210AE00AFEDAA /* TerraDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerraDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08982719204210AE00AFEDAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0898271B204210AE00AFEDAA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0898271D204210AE00AFEDAA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0898271B204210AE00AFEDAA /* DropsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropsViewController.swift; sourceTree = "<group>"; };
+		0898271D204210AE00AFEDAA /* CompassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
 		08982720204210AE00AFEDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08982722204210B000AFEDAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08982725204210B000AFEDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +68,13 @@
 		08982737204210B000AFEDAA /* TerraDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerraDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0898273B204210B000AFEDAA /* TerraDropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraDropUITests.swift; sourceTree = "<group>"; };
 		0898273D204210B000AFEDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D23FA72042939900F0DE58 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		08D23FA92042AEBD00F0DE58 /* EditDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDropViewController.swift; sourceTree = "<group>"; };
+		08D23FAB2042DD4200F0DE58 /* DropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropViewController.swift; sourceTree = "<group>"; };
+		08D23FAD204319B700F0DE58 /* DetailDrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDrop.swift; sourceTree = "<group>"; };
+		08D5D42C2042436500F78777 /* ConnectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionController.swift; sourceTree = "<group>"; };
+		08D5D42E2042467A00F78777 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		08D5D4302042589F00F78777 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +102,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		088F02AE20426D27003AAA67 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0898271B204210AE00AFEDAA /* DropsViewController.swift */,
+				0898271D204210AE00AFEDAA /* CompassViewController.swift */,
+				08002BFC20421B40008CEBD1 /* ProfileViewController.swift */,
+				08D5D42E2042467A00F78777 /* SplashViewController.swift */,
+				08D5D4302042589F00F78777 /* TabViewController.swift */,
+				088F02AC20426C3E003AAA67 /* LoginViewController.swift */,
+				08D23FA92042AEBD00F0DE58 /* EditDropViewController.swift */,
+				08D23FAB2042DD4200F0DE58 /* DropViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		088F02AF20426D54003AAA67 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				08002C0020422635008CEBD1 /* LocationController.swift */,
+				08002C0220423925008CEBD1 /* UserController.swift */,
+				08D5D42C2042436500F78777 /* ConnectionController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		088F02B020426D8A003AAA67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08002BFE20421BF6008CEBD1 /* CompassView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0898270D204210AE00AFEDAA = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +158,17 @@
 		08982718204210AE00AFEDAA /* TerraDrop */ = {
 			isa = PBXGroup;
 			children = (
-				08982719204210AE00AFEDAA /* AppDelegate.swift */,
-				0898271B204210AE00AFEDAA /* FirstViewController.swift */,
-				0898271D204210AE00AFEDAA /* SecondViewController.swift */,
-				0898271F204210AE00AFEDAA /* Main.storyboard */,
 				08982722204210B000AFEDAA /* Assets.xcassets */,
+				08982719204210AE00AFEDAA /* AppDelegate.swift */,
+				0898271F204210AE00AFEDAA /* Main.storyboard */,
 				08982724204210B000AFEDAA /* LaunchScreen.storyboard */,
+				088F02AF20426D54003AAA67 /* Controllers */,
+				088F02AE20426D27003AAA67 /* ViewControllers */,
+				088F02B020426D8A003AAA67 /* Views */,
 				08982727204210B000AFEDAA /* Info.plist */,
+				088F02B120426F8C003AAA67 /* MinimalDrop.swift */,
+				08D23FAD204319B700F0DE58 /* DetailDrop.swift */,
+				08D23FA72042939900F0DE58 /* Math.swift */,
 			);
 			path = TerraDrop;
 			sourceTree = "<group>";
@@ -259,9 +322,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0898271E204210AE00AFEDAA /* SecondViewController.swift in Sources */,
+				0898271E204210AE00AFEDAA /* CompassViewController.swift in Sources */,
+				08D23FA82042939900F0DE58 /* Math.swift in Sources */,
 				0898271A204210AE00AFEDAA /* AppDelegate.swift in Sources */,
-				0898271C204210AE00AFEDAA /* FirstViewController.swift in Sources */,
+				08D23FAE204319B700F0DE58 /* DetailDrop.swift in Sources */,
+				08002BFF20421BF6008CEBD1 /* CompassView.swift in Sources */,
+				08D5D42F2042467A00F78777 /* SplashViewController.swift in Sources */,
+				08D23FAC2042DD4200F0DE58 /* DropViewController.swift in Sources */,
+				08D23FAA2042AEBD00F0DE58 /* EditDropViewController.swift in Sources */,
+				088F02B220426F8C003AAA67 /* MinimalDrop.swift in Sources */,
+				08002BFD20421B40008CEBD1 /* ProfileViewController.swift in Sources */,
+				08002C0320423925008CEBD1 /* UserController.swift in Sources */,
+				08D5D42D2042436500F78777 /* ConnectionController.swift in Sources */,
+				08002C0120422635008CEBD1 /* LocationController.swift in Sources */,
+				08D5D4312042589F00F78777 /* TabViewController.swift in Sources */,
+				0898271C204210AE00AFEDAA /* DropsViewController.swift in Sources */,
+				088F02AD20426C3E003AAA67 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

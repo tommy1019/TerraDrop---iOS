@@ -44,6 +44,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>TerraDrop needs your location to send you notifications for nearby drops</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>TerraDrop needs your location to determine which drops are nearby</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
